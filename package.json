@@ -1,5 +1,4 @@
 {
-  "packageManager": "pnpm@10.4.1",
   "name": "ai-chatbot",
   "version": "0.1.0",
   "private": true,
