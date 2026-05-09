@@ -44,6 +44,8 @@ export const PreviewMessage = ({
       >
         {message.role === 'assistant' && (
           <div className="size-8 flex items-center rounded-full justify-center ring-1 shrink-0 ring-border">
+            {/* Removed FaRegSparkles and replaced with text */}
+            <span className="text-[10px] font-medium text-muted-foreground">AI</span>
           </div>
         )}
 
@@ -160,7 +162,8 @@ export const ThinkingMessage = () => {
         )}
       >
         <div className="size-8 flex items-center rounded-full justify-center ring-1 shrink-0 ring-border">
-          <FaRegSparkles size={14} />
+          {/* Removed FaRegSparkles and replaced with text */}
+          <span className="text-[10px] font-medium text-muted-foreground">AI</span>
         </div>
 
         <div className="flex flex-col gap-2 w-full">
