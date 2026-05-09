@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    ppr: true
-  },
+  // experimental: { ppr: true },   // ← removed so it builds on stable Next.js
   typescript: {
     ignoreBuildErrors: false
   },
@@ -39,4 +37,4 @@ const nextConfig = {
   },
 }
 
-module.exports = nextConfig; 
+module.exports = nextConfig;
