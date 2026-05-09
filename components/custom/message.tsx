@@ -10,7 +10,6 @@ import { Vote } from '@/lib/supabase/types';
 import { UIBlock } from './block';
 import { DocumentToolCall, DocumentToolResult } from './document';
 //@ts-ignore
-import { LuSparkles } from 'react-icons/lu';
 import { Markdown } from './markdown';
 import { MessageActions } from './message-actions';
 import { PreviewAttachment } from './preview-attachment';
